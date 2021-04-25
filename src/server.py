@@ -3,7 +3,7 @@ server = Flask(__name__)
 
 @server.route("/")
 def hello():
-    return "Hola Planificación y Gestión de infraestructuras TIC Por Sergio Cámara"
+    return "<h1>Hola Planificación y Gestión de infraestructuras TIC</h1> </br></br> <h2>Por Sergio Cámara</h2>"
 
 if __name__ == "__main__":
    server.run(host='0.0.0.0')
